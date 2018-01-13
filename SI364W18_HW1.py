@@ -17,7 +17,7 @@ import json
 import pprint
 
 ## List below here, in a comment/comments, the people you worked with on this assignment AND any resources you used to find code (50 point deduction for not doing so). If none, write "None".
-# Used News API, https://newsapi.org/ (for problem 4)
+# Used News API, https://newsapi.org/ (for problem 4) and class notes/code as reference
 # Did not work with anybody
 
 ## [PROBLEM 1] - 150 points
