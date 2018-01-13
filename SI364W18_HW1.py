@@ -73,7 +73,7 @@ def form():
 		  <input type="text" name="phrase">
 		  <br>
 
-		  Which source would you like to search from?<br>
+		  Which source(s) would you like to search from?<br>
 		  <input type="checkbox" name="source", value = "bbc-news"> BBC News
 		  <br>
 		  <input type="checkbox" name="source", value = "abc-news"> ABC News
