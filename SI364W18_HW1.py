@@ -28,9 +28,13 @@ from flask import Flask
 app = Flask(__name__)
 app.debug = True
 
+@app.route('/')
+def hello_to_you():
+    return 'Hello!'
+
 #Problem 1
 @app.route('/class')
-def hello_to_you():
+def hello_class():
 	return '<h1>Welcome to SI 364!</h1>'
 
 #Problem 2
@@ -107,7 +111,7 @@ def form():
 			except:
 				response2 = "Error"
 			resp.append(response2)
-		return s + '<br><strong><h2>Top Headlines for ' + request.form['phrase'] + '</strong></h2>' + '<br>'.join(resp)
+		return s + '<strong><h2>Top Headlines for ' + request.form['phrase'] + '</strong></h2>' + '<br>'.join(resp)
 	else:
 		return s
 
